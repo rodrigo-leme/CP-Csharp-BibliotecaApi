@@ -1,0 +1,32 @@
+@BibliotecaApi_HostAddress = http://localhost:5074
+
+### Listar todos os livros
+GET {{BibliotecaApi_HostAddress}}/livros
+
+### Buscar livro por id
+GET {{BibliotecaApi_HostAddress}}/livros/1
+
+### Cadastrar livro
+POST {{BibliotecaApi_HostAddress}}/livros
+Content-Type: application/json
+
+{
+  "titulo": "Dom Casmurro",
+  "autor": "Machado de Assis",
+  "anoPublicacao": 1899,
+  "disponivel": true
+}
+
+### Atualizar livro
+PUT {{BibliotecaApi_HostAddress}}/livros/1
+Content-Type: application/json
+
+{
+  "titulo": "Dom Casmurro",
+  "autor": "Machado de Assis",
+  "anoPublicacao": 1899,
+  "disponivel": false
+}
+
+### Remover livro
+DELETE {{BibliotecaApi_HostAddress}}/livros/1
