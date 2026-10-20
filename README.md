@@ -7,10 +7,7 @@ API RESTful para gerenciar o acervo de livros de uma biblioteca comunitária, de
 | Nome | RM |
 |------|----|
 | Rodrigo Leme | RM550266 |
-| _Nome do integrante 2_ | _RM_ |
-| _Nome do integrante 3_ | _RM_ |
-| _Nome do integrante 4_ | _RM_ |
-| _Nome do integrante 5_ | _RM_ |
+
 
 ## 📝 Contexto do Projeto
 
